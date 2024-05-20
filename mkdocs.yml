@@ -1,7 +1,7 @@
 site_name: Piggy bank
 theme:
     name: material
-   highlightjs: true
-   hljs_languages:
-       - yaml
-       - rust
+#    highlightjs: true
+#    hljs_languages:
+#        - yaml
+#        - rust
