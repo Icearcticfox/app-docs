@@ -1,4 +1,4 @@
-Артифакты в гитлабе, пример:
+**Artifacts
 ```
     artifacts:
         untracked: true
@@ -10,4 +10,4 @@
             - some/**/directories/*.txt
         expire: 1d 
 ```
-[Проблема не работающих exclude](https://gitlab.com/gitlab-org/gitlab/-/issues/15122)
+- [# CI Artifacts: exclude paths](https://gitlab.com/gitlab-org/gitlab/-/issues/15122)

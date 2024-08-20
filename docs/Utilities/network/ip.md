@@ -1,3 +1,4 @@
-### ip
 
-все интерфейсы `ip a`, краткая информация `ip -br a show`
+all interfaces `ip a`
+short info `ip -br a show`
+show routing `ip -r` 

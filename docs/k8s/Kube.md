@@ -1,6 +1,7 @@
 
 **Debug busybox**
 kubectl run curl-my --image=radial/busyboxplus:curl -i --tty --rm
+
 **Real-time logs**
 
 kubectl logs -f -l app=duty-slack-app --max-log-requests 11   -n miniweb-testing
@@ -10,6 +11,7 @@ Kubetail oauth2-proxy -n Grafana-system
 kubectl apply --force -f test_volume.yaml -n grafana-test
 
 **Helm**
+
 helm template tempo-vulture/chart -f tempo-vulture/chart/values.yaml > file.yaml
 helm template test helm -f cronjobs/.merged_values.yaml > file.yaml
 helm create mychart

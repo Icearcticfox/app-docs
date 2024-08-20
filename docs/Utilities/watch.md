@@ -1,2 +1,2 @@
-###Выполнение команд с периодом
+###Wrap on periodicly command call
 >watch -n 2 "some action"
