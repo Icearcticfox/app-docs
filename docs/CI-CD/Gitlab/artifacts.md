@@ -1,4 +1,4 @@
-**Artifacts
+
 ```
     artifacts:
         untracked: true
